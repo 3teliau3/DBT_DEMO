@@ -3,6 +3,7 @@ my-dbt-env/
 
 # Fichiers de logs générés par DBT
 logs/
+connexion_sql.py
 
 # Fichiers de cache
 dbt_modules/
