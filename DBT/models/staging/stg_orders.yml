@@ -3,10 +3,6 @@ version: 2
 models:
     - name: stg_orders
       columns:
-        - name: id
         - name: customer_id
-        - name: ordered_at
-        - name: store_id
-        - name: subtotal
-        - name: tax_paid
-        - name: order_total
+          tests:
+            - not_null
